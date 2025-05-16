@@ -65,7 +65,7 @@ int main()
     }
 }
 
-hackerrank prgm 5
+hackerrank prgm 5(chatgpt)
 
 #include <stdio.h>
 
@@ -95,6 +95,111 @@ while(a>=b)
  c++;
 }
 printf("%d",c);
+
+}
+
+hackerrank prgm 7
+#include<stdio.h>
+
+int main()
+{
+int a,b;
+
+scanf("%d %d",&a,&b);
+
+int m=(a>=b)?a:b;
+
+while(1)
+
+{
+
+if(m%a==0 && m%b==0)
+
+{
+
+printf("%d",m);
+
+break;
+
+}
+
+m++;
+
+
+
+
+}
+
+
+}
+
+hackerrank prgm 8
+
+#include <stdio.h>
+
+int main()
+{
+
+int a, sum=0;
+
+scanf("%d",&a); 
+
+int i=1;
+
+while(i<=a)
+
+{
+
+if(i%2==0)
+
+{
+
+sum=sum+i;
+
+}
+
+i++;
+}
+
+printf("%d", sum);
+}
+
+hackrank prgm 9
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c=0,i;
+    scanf("%d %d",&a,&b);//5 2
+    for(i=0;i<b;i++)
+    {
+        c=c+a;//10
+    }
+    printf("%d ",c);//10
+
+    return 0;
+}
+
+hackerrank prgm 10
+
+#include <stdio.h>
+
+int main(){
+
+int a,i;
+
+scanf("%d",&a);
+
+for(i=1;i<=a; i++)
+
+{
+
+printf("abcdefghijklmnopqrstuvwxyz");
+
+}
+
+return 0;
 
 }
 
